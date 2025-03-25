@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/productpage.css">
+</head>
+<body style="background-color: rgb(11, 9, 9);">
+    <nav>
+        <h1>Tech-Shop</h1>
+        <div class="imgall">
+            <div class="search-icon">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="" class="bi bi-search"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                </a>
+                <div class="search-popup">
+                    <h5 style="color: rgb(180, 174, 174) ;">Search</h5>
+                </div>
+            </div>
+            <!-- creation of notification icon -->
+            <div class="cart-icon">
+                <div>
+                    <a href="../css/cardpage.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill=""
+                            class="bi bi-cart4" viewBox="0 0 16 16">
+                            <path
+-+                                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                        </svg></a>
+                    <span class="not-icon">3</span>
+                </div>
+                <div class="cart-popup">
+                    <h5 style="color:  rgb(180, 174, 174) ;">Cart</h5>
+                </div>
+            </div>
+            <div class="profile-human">
+               <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill=""
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg></a>
+                <div class="popup-human ">
+                    <h5 style="color: rgb(180, 174, 174);"> Hello</h5>
+                    <h5 style="color: gray; "> Access account and manage orders </h5>
+                    <br>
+                    <a href="../css/form project.html"> <input type="button" value="Login /Singup"
+                            style=" border: 3px solid gray; border-radius: 4px; background-color: black; color:gray ; height: 45px; width: 200px; "
+                            class="kvr-button"></a>
+                    <hr style="color: white; height: 10px;">
+                    <h5 style="color: gray;"> please login</h5>
+                 </div>
+            </div>
+        </div>
+    </nav>
+    
+   
+    
+    <!-- create a curosul -->
+    <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner  ">
+           <!-- first carousel -->
+             <!-- first slide -->
+             <div class="carousel-item active">
+                <div class="container-fluid">
+                    <div class="row align-items-center murali">
+                        <!-- Left Side (Text) -->
+                        <div class="  col-lg-6  col-md-6 col-12 text-center text-md-start p-4 manjula ">
+                            <p>Sony WH-XB910N</p>
+                            <h1 style="font-family: 30px;">Give Your Favourite</h1>
+                            <h1 style="font-family: 30px;">Music a Boost.</h1>
+                            <br>
+                            <p>₹13489 ....... <del>₹19990</del></p>
+                            <br>
+                            <a href="#"><input type="button" value="Shop now" class="shopnow"></a>
+                        </div>
+                        <!-- Right Side (Image) -->
+                        <div class="col-lg-6 col-md-6 col-12 text-center muneendra">
+                            <img src="/project pictures/sonyXb910n-1.png" class="img-fluid" alt="boAt Airdopes 131">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- second slide -->
+            <div class="carousel-item ">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Left Side (Text) -->
+                        <div class=" col-lg-6  col-md-6 col-12 text-center text-md-start p-4 ">
+                            <p>JBL Live 660NC</p>
+                            <h1 style="font-family: 30px;">Keep The Noise Out,Or</h1>
+                            <h1 style="font-family: 30px;">In. You Choose.</h1>
+                            <br>
+                            <p>₹9999 ....... <del>₹14999</del></p>
+                            <br>
+                            <a href="#"><input type="button" value="Shop now" class="shopnow"></a>
+                        </div>
+                        <!-- Right Side (Image) -->
+                        <div class="col-lg-6 col-md-6 col-12 text-center">
+                            <img src="/project pictures/boat131-3.png" class="img-fluid" alt="boAt Airdopes 131">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- third -->
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Left Side (Text) -->
+                        <div class=" col-lg-6  col-md-6 col-12 text-center text-md-start p-4 ">
+                            <p>boAt Airdopes 131</p>
+                            <h1 style="font-family: 30px;">Featherweight For</h1>
+                            <h1 style="font-family: 30px;">Comfort All-Day.</h1>
+                            <br>
+                            <p>₹1099 ....... <del>₹2990</del></p>
+                            <br>
+                            <a href="#"><input type="button" value="Shop now" class="shopnow"></a>
+                        </div>
+                        <!-- Right Side (Image) -->
+                        <div class="col-lg-6 col-md-6 col-12 text-center">
+                            <img src="/project pictures/jbl660nc-1.png" class="img-fluid" alt="boAt Airdopes 131">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control  bg-white" aria-hidden="true"></span>
+                <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators position-absolute bottom-0 ">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                    class="active bg-danger  rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                    aria-label="Slide 2" class="bg-danger rounded-circle"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                    aria-label="Slide 3" class="bg-danger rounded-circle"></button>
+            </div>
+        </div>
+        <!-- cration of first card container -->
+        <h1 class="featured-products ">Featured Products</h1>
+        <div class="container-fluid d-flex gap-3 mt-5 hod">
+            <div class="card class-teacher  " style="width: 21rem;">
+                <h2>JBL Endurance Run Sports</h2>
+                <img src="/project pictures/jbl-endu-1.png" class="card-img-top p-4 bhargav" alt="...">
+                <div class="card-body bhavana">
+                    <p class="card-text">₹999 <del class="strike-off ms-3">₹1599</del></p>
+                </div>
+            </div>
+            <div class="card" style="width: 21rem;">
+                <h2>boAt Airdopes 203</h2>
+                <img src="/project pictures/boat203-1.png" class="card-img-top p-4" alt="...">
+                <div class="card-body">
+                    <p class="card-text">₹1074 <del class="strike-off ms-3">₹3999</del></p>
+                </div>
+            </div>
+            <div class="card" style="width: 21rem;">
+                <h2>boAt Rockerz 518</h2>
+                <img src="/project pictures/boat518-1.png" class="card-img-top p-4" alt="...">
+                <div class="card-body">
+                    <p class="card-text">₹1299 <del class="strike-off ms-3">₹3990</del></p>
+                </div>
+            </div>
+            <div class="card" style="width: 21rem;">
+                <h2>JBL Tune 760NC</h2>
+                <img src="/project pictures/jbl760nc-1.png" class="card-img-top p-4" alt="...">
+                <div class="card-body">
+                    <p class="card-text">₹5,999 <del class="strike-off ms-3">₹7,999</del></p>
+                </div>
+            </div>
+            <div class="card" style="width: 21rem;">
+                <h2>boAt Rockerz 255</h2>
+                <img src="/project pictures/boat255r-1.png" class="card-img-top p-4" alt="...">
+                <div class="card-body">
+                    <p class="card-text">₹899 <del class="strike-off ms-3">₹2990</del></p>
+                </div>
+            </div>
+        </div>
+        <!-- creation of the nav bar -->
+        <h1 class="featured-products mt-5">Top Products</h1>
+        <nav class="nav mt-5 mb-5">
+            <a href="#" style="font-size: 20px;" class="all-button">All</a>
+            <a href="#" style="font-size: 20px;" class="px-3">Headphones</a>
+            <a href="#" style="font-size: 20px;" class="px-3">Earbuds</a>
+            <a href="#" style="font-size: 20px;" class="px-3">Earphones</a>
+            <a href="#" style="font-size: 20px;" class="px-3">Neckbands</a>
+        </nav>
+        <!-- craetion of the second card container -->
+        <div class="container-fluid  ">
+            <!-- first -->
+            <div class="row  card-box  gap-3 mx-auto justify-content-center">
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2  box   " style="width: 22rem;" box ">
+                    <img src=" /project pictures/jbl660nc-1.png " class=" card-images">
+                    
+                    <p class="thara" style="color: red;">★★★★★</p>
+                    
+                    <h3 style="font-size: 30px; font-weight: bold; color: white;"> JBL Live 660NC</h3>
+                    <h6 style=" font-size: 20px; color:gray;">Wireless Over-Ear NC <br> Headphones</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <h3 style="font-size: 30px;font-weight: bold;color: white;">₹9999 <del ms-6
+                            style="font-size: 30px;font-weight: bold;color: gray;">₹14999</del></h3>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- second -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2  box   " style="width: 22rem;" box ">
+                <img src=" /project pictures/boat518-1.png " class=" card-images">
+                    
+                    <p class="thara" style="color: red;">★★★★★</p>
+                    
+                    <h3 style="font-size: 30px; font-weight: bold; color: white;">boAt Rockerz 518</h3>
+                    <h6 style="font-size:20px ; color:gray ;"> On-Ear Wireless Headphones</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹1299 <del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹3990</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- third -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2 box   " style="width: 22rem;" box ">
+                <img src=" /project pictures/boat131-1.png" class=" card-images">
+                    <p class="thara" style="color: red;">★★★★★</p>
+                    <h3 style="font-size: 30px; font-weight: bold; color: white;">boAt Airdopes 131</h3>
+                    <h6 style="font-size:20px ; color:gray ;"> Wireless in-ear Earbuds</h6>
+                    <br class="mt-5">
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹1099 <del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹2990</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- fourth -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2   box " style="width: 22rem;" box">
+                    <img src="/project pictures/boat110-1.png" class="card-images">
+                    <p class="thara" style="color: red;">★★★★★</p>
+                    <h3 style="font-size: 30px; font-weight: bold; color: white;">boAt Bassheads 110</h3>
+                    <h6 style="font-size:20px ; color:gray ;"> In-Ear Wired Earphones</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹499 <del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹999</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- first -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2  box   " style="width: 22rem;" box ">
+                    <img src=" /project pictures/boat410-1.png " class=" card-images">
+                    <p class="thara" style="color: red;">★★★★★</p>                    <h3 style="font-size: 30px; font-weight: bold; color: white;">boAt Rockerz 410</h3>
+                    <h6 style="font-size:20px ; color:gray ;">Bluetooth & Wired On-Ear</h6>
+                    <h6 style="font-size:20px ; color:gray ;">Headphones</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹1599<del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹2990</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- second -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2  box   " style="width: 22rem;" box ">
+                <img src=" /project pictures/jbl200bt-1.png" class=" card-images">
+                <p class="thara" style="color: red;">★★★★★</p>
+                    <h3 style="font-size: 30px; font-weight: bold; color: white;">JBL Live 200BT</h3>
+                    <h6 style="font-size:20px ; color:gray ;">In-Ear Wireless Neckbands</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹3500<del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹4500</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- third -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2 box   " style="width: 22rem;" box ">
+                <img src=" /project pictures/sonyXb910n-1.png" class=" card-images">
+                <p class="thara" style="color: red;">★★★★★</p>
+                    <h3 style="font-size: 30px; font-weight: bold; color: white;">Sony WH-XB910N</h3>
+                    <h6 style="font-size:20px ; color:gray ;">Wireless Over-Ear</h6>
+                    <h6 style="font-size:20px ; color:gray ;">Headphones</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹13500<del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹14500</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- fourth -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2   box " style="width: 22rem;" box">
+                    <img src="/project pictures/jbl760nc-1.png " class="card-images">
+                    <p class="thara" style="color: red;">★★★★★</p><h3 style="font-size: 30px; font-weight: bold; color: white;">JBL Tune 760NC</h3>
+                    <h6 style="font-size:20px ; color:gray ;">Wireless Over-Ear Nc</h6>
+                    <h6 style="font-size:20px ; color:gray ;">Headphones</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹5999<del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹7500</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- first -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2  box   " style="width: 22rem;" box ">
+                    <img src=" /project pictures/boat255r-1.png " class=" card-images">
+                    <p class="thara" style="color: red;">★★★★★</p>
+                    <h3 style="font-size: 30px; font-weight: bold; color: white;">boAt Rockerz 255</h3>
+                    <h6 style="font-size:20px ; color:gray ;">In-Ear Wireless Neckbands</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹999<del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹1500</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- second -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2  box   " style="width: 22rem;" box ">
+                <img src=" /project pictures/jbl100-1.png " class=" card-images">
+                <p class="thara" style="color: red;">★★★★★</p>
+                    <h3 style="font-size: 30px; font-weight: bold; color: white;">JBL Wave 100</h3>
+                    <h6 style="font-size:20px ; color:gray ;">In-Ear truly wireless Earbuds</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹2999<del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹3500</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- third -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2 box   " style="width: 22rem;" box ">
+                <img src=" /project pictures/sony1000xm4-1.png" class=" card-images">
+                <p class="thara" style="color: red;">★★★★★</p>
+                    <h3 style="font-size: 30px; font-weight: bold; color: white;">Sony WF-1000XM4</h3>
+                    <h6 style="font-size:20px ; color:gray ;">Wireless In-Ear NC </h6>
+                    <h6 style="font-size:20px ; color:gray ;">Headphones</h6>
+                    <br>
+                    <hr style="color: white;">
+                    <p style="font-size: 30px; font-weight: bold; color: white;">₹19900<del class="ms-4"
+                            style="font-size: 30px; font-weight: bold; color: gray;">₹25500</del></p>
+                    <input type="button" value="Add to card" class="add">
+                </div>
+                <!-- fourth -->
+                <div class=" col col-sm-6 col-md-3 col-lg-3 col-xl-2   box "
+                    style="width: 22rem; min-height: 200px; display: flex; align-items: center; justify-content: center; text-align: center; border: 3px solid rgb(72, 72, 72);">
+                    <div class="Browse">
+                        <h1 cl>Browse All</h1>
+                        <h1>Products→</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- our advantages -->
+        <h1 class="mt-5 mb-5" style="text-align: center; font-size: 30px;">Our Advantages</h1>
+        <div style="padding: 30px;">
+            <div class="row m-5 ">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xl-3 d-flex " 9*>
+                    <i class="fa-solid fa-truck-fast fa-2x p-3 mb-2" style="color: #d60525;"></i>
+                    <div class="heading">
+                        <h4 style="color: white;">Express Delivery</h4>
+                        <h5 style="font-size: 17px;color: gray;">ships in 24 Hours</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xl-3 d-flex">
+                    <i class="fa-solid fa-shield-halved fa-2x p-3 mb-2" style="color: #e7131d;"></i>
+                    <div class="heading">
+                        <h4 style="color: white;">Brand Warranty</h4>
+                        <h5 style="font-size: 17px;color: gray;">100% Original products</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xl-3 d-flex">
+                    <i class="fa-solid fa-tags  fa-2x p-3 mb-2" style="color: #f10909;"></i>
+                    <div class="heading">
+                        <h4 style="color: white;">Exciting Deals</h4>
+                        <h5 style="font-size: 17px;color: gray;">On all prepaid orders</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xl-3 d-flex">
+                    <i class="fa-solid fa-credit-card fa-2x p-3 mb-2" style="color: #ec0909;"></i>
+                    <div class="heading">
+                        <h4 style="color: white;">Secure payments</h4>
+                        <h5 style="font-size: 17px;color: gray;">SSL/Secure certificate</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer path -->
+        <div style="background-color: black;" class="mb-2">
+            <div class="row d-flex container-fluid ">
+                <div class="col col-lg-3 col-md-6 col-sm-12 col-xl-3">
+                    <h4 style="font-size: 30px; color: white;">Tech-shop</h4>
+                    <br>
+                    <h5 style="font-size: 18px; color: gray;">Subscribe to our Email alerts to receive<br>early discount
+                        offers,and new products<br>info.</h5>
+                    <input type="email" placeholder="   Email Address*"
+                        style="background-color:black ; border: 1px solid white;padding: 2px; " class="email">
+                    <br>
+                    <br>
+                    <input type="button" value="Subscribe" style="background-color: #ec0909; border: 1px solid black;"
+                        class="subscribe">
+                </div>
+                <div class="col col-lg-3 col-md-6 col-sm-12 col-xl-3 ">
+                    <h4 style="font-size: 20px; color: white;">Help</h4>
+                    <br>
+                    <h5 style="font-size: 18px; color: gray;">FAQs</h5>
+                    <h5 style="font-size: 18px; color: gray;">Track Order</h5>
+                    <h5 style="font-size: 18px; color: gray;">Cancel Order</h5>
+                    <h5 style="font-size: 18px; color: gray;">Return Order</h5>
+                    <h5 style="font-size: 18px; color: gray;">warranty Info</h5>
+                </div>
+                <div class="col col-lg-3 col-md-6 col-sm-12 col-xl-3 ">
+                    <h4 style="font-size: 20px; color: white;">Policies</h4>
+                    <br>
+                    <h5 style="font-size: 18px; color: gray;">Return Policy</h5>
+                    <h5 style="font-size: 18px; color: gray;">Security</h5>
+                    <h5 style="font-size: 18px; color: gray;">Sitemap</h5>
+                    <h5 style="font-size: 18px; color: gray;">Privacy Policy</h5>
+                    <h5 style="font-size: 18px; color: gray;">Terms & Conditions</h5>
+                </div>
+                <div class="col col-lg-3 col-md-6 col-sm-12 col-xl-3 ">
+                    <h4 style="font-size: 20px; color: white;">Company</h4>
+                    <br>
+                    <h5 style="font-size: 18px; color: gray;">About Us</h5>
+                    <h5 style="font-size: 18px; color: gray;">Contact Us</h5>
+                    <h5 style="font-size: 18px; color: gray;">Service Centers</h5>
+                    <h5 style="font-size: 18px; color: gray;">Careers</h5>
+                    <h5 style="font-size: 18px; color: gray;">Affiliates</h5>
+                </div>
+            </div>
+            <hr style="color: gray;">
+            <nav>
+                <h6 style="color: gray;">2024|All Rights Reserved.Built by|<b style="color: white;">MUNIRATHNAM</b></h6>
+                <div class="footer-symbol">
+                    <i class="fa-brands fa-facebook-f fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                    <i class="fa-brands fa-linkedin-in fa-2x"></i>
+                </div>
+            </nav>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+</html>
